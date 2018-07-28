@@ -3,7 +3,7 @@
 if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
-class Barang extends CI_Controller
+class Barang extends MY_Controller
 {
     function __construct()
     {

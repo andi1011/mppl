@@ -4,7 +4,7 @@
  * This controller can be accessed 
  * for (all) non logged in users
  */
-class Auth extends CI_Controller {	
+class Auth extends MY_Controller {	
 
 	public function logged_in_check()
 	{

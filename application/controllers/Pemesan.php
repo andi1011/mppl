@@ -3,7 +3,7 @@
 if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
-class Pemesan extends CI_Controller
+class Pemesan extends MY_Controller
 {
     function __construct()
     {

@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Kelompok extends CI_Controller {
+class Kelompok extends MY_Controller {
     public function index()
 	{	  $this->load->view('template/head');
         $this->load->view('template/topbar');

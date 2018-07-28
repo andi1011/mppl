@@ -3,7 +3,7 @@
 if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
-class Pembayaran extends CI_Controller
+class Pembayaran extends MY_Controller
 {
     function __construct()
     {
